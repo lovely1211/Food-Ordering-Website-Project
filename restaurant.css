@@ -409,6 +409,12 @@ footer{
         margin-top: 20px;
         width:90vw;
     }
+    .search-icon{
+        display: none;
+    } 
+    .search-input{
+        top: 22%;
+    }
 }
 @media only screen and (min-width:600px) and (max-width:781px)
 {
@@ -430,6 +436,16 @@ footer{
         margin-top: 20px;
         margin-left: 22px;
     }
+    .search-icon{
+        display: none;
+    }
+    .search-input{
+        display: none;
+    }
+    #navcontent{
+        margin-top: -2%;
+    }
+    
 }
 @media only screen and (max-width:600px){
     #row7{
@@ -449,6 +465,18 @@ footer{
         margin: auto;
         margin-top: 20px;
         margin-left: 3px;
+    }
+    .search-icon{
+        display: none;
+    }
+    .search-input{
+        display: none;
+    }    
+    #navbar{
+        border-bottom: none;
+    }
+    #navcontent{
+       margin-top: -3%;
     }
 }
 

@@ -7,7 +7,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="favicon_io (2)/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon_io (2)/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="favicon_io (2)/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
+<link rel="manifest" href="favicon_io (2)/site.webmanifest">
     <style>
         body{
             justify-content: center;
@@ -24,9 +24,9 @@
             background-color: red;
             font-weight: bold;
             border: 2px solid black;
-            line-height: 45px;
-            margin-left: 200px;
-            margin-right: 200px;
+            line-height: 40px;
+            margin-left: 150px;
+            margin-right: 150px;
             border-radius: 8px;
         }
         p{
@@ -40,6 +40,30 @@
         .para{
             background-color: rgb(70, 66, 66);
             border-radius: 10px;
+        }
+        @media only screen and (max-width: 600px){
+            h2{
+                line-height: 25px;
+                font-size: 22px;
+            }
+            body{
+                margin: 0;
+            }
+            p{
+                font-size: 16px;
+            }
+            .para{
+                display: block;
+            }
+        }
+        @media only screen and (min-width:600px) and (max-width: 1025px){
+            h2{
+                line-height: 30px;
+                font-size: 24px;
+            }
+            body{
+                margin: 0 150px;
+            }    
         }
     </style>
 </head>
